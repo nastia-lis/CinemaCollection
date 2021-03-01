@@ -1,9 +1,9 @@
-package com.example.cinemacollection
+package com.example.cinemacollection.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.cinemacollection.R
 import com.example.cinemacollection.databinding.MainActivityBinding
-import com.example.cinemacollection.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                    .replace(R.id.container, MainFragment.newInstance())
-                    .commitNow()
+                .replace(R.id.container, MainFragment.newInstance())
+                .commitNow()
         }
     }
 }
