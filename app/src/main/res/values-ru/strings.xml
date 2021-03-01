@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Коллекция Кинематографа</string>
+    <string name="movie_1">Фильм 1</string>
+    <string name="movie_2">Фильм 2</string>
+    <string name="movie_3">Фильм 3</string>
+    <string name="movie_4">Фильм 4</string>
+    <string name="movie_5">Фильм 5</string>
+    <string name="movie_6">Фильм 6</string>
+    <string name="movie_7">Фильм 7</string>
+    <string name="movie_8">Фильм 8</string>
+    <string name="movie_9">Фильм 9</string>
+</resources>
